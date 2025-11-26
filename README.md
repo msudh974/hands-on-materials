@@ -35,7 +35,6 @@ Focused, multi-mission analysis examples exploring:
 ### **Common resources**
 
 - Shared Python environment (`env/`)  
-- Template notebooks (`00_common/`)  
 - Utility functions and documentation links  
 
 ---
