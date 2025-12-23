@@ -12,15 +12,15 @@ Welcome to the hands-on material for the HEL1OS instrument onboard Aditya-L1. Op
     jupyter lab
     ```
    
-2.  **Install requirements in the first cell:**
-    ```bash
-    !pip install -r requirements.txt
-    ```
-
-3.  **Clone the repository:**
+2.  **Clone the repository:**
     ```bash
     !git clone [https://github.com/msudh974/hands-on-materials.git](https://github.com/msudh974/hands-on-materials.git)
     !cd hands-on-materials/aditya-l1/hel1os
+    ```
+    
+3.  **Install requirements:**
+    ```bash
+    !pip install -r requirements.txt
     ```
 
 4.  **Create a new folder to store the event data:**
