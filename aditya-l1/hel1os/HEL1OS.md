@@ -37,12 +37,9 @@ If you need any more details on the HEL1OS instrument, refer **Nandi, A., Sudhak
 ![Level 1 Data Structure](images/Level1_DataStructure.png)
 
 #### 2.2.1 **What is the Event List?** 
-The Event list can be considered as a fundamental data product and is represented by a table consisting of rows or "events". In X-ray photon counting detectors, an "event" corresponds to the **detection of a single X-ray photon** interacting with the detector. X-ray photons deposit energy in detectors which produces a **measurable electrical signal**. If the signal exceeds a pre-defined threshold, the detector electronics registers it as **one event**. 
+The Event list can be considered as a fundamental data product and is represented by a table consisting of rows or "events". 
 
-Each event is therefore a **time-tagged record** of a single photon interaction and typically includes: 
-- Arrival time - for example, 10 millisecond time-tagging for HEL1OS events. 
-- Energy information - derived from the amplitude of the electrical signal.
-- Spatial information - for example, pixel ID in the case of HEL1OS CZT detectors, etc.
+![Event List](images/EventFile_Schematic.png)
 
 We generate derived data products like light curves and spectral files from the event list. For more details, refer **Section 3 *A Short Introduction to X-ray Data Analysis*** in the **HEL1OS User Manual**, which can can be accessed after logging into your user account in https://pradan1.issdc.gov.in/al1/. 
 
@@ -55,4 +52,4 @@ We generate derived data products like light curves and spectral files from the 
 ![HLS PRADAN 3](images/HLS_PRADAN3.png)
 ![HLS PRADAN 4](images/HLS_PRADAN4.png)
 
-## 5. Demo
+
